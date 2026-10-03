@@ -5,7 +5,7 @@ name:
   display: Jouhaina Kourou
   given: Jouhaina
   family: Kourou
-  alternate: ''  # e.g. your name in Arabic script
+  alternate: ''
   pronunciation: ''
   pronouns: she/her
 postnominals: []
@@ -13,73 +13,131 @@ status:
   icon: "🧬"
 role: PhD Student in Bioinformatics & Oncology
 bio: |
-  I'm a PhD student in Bioinformatics & Oncology, working at the crossroads of
-  computational biology, drug design, machine learning and in silico modeling.
-  I'm curious about how data and computation can help us understand cancer and
-  find better ways to treat it.
+  I'm a PhD candidate in Oncology & Bioinformatics at the Faculty of Medicine &
+  Pharmacy, Mohammed V University in Rabat. My research sits where computational
+  drug discovery meets cancer genomics: I use structural bioinformatics, molecular
+  dynamics and machine learning to find and test new therapeutic ideas in silico,
+  and to bring that discovery closer to translational oncology.
 
-  Beyond research, I write long-form blog posts about science, bioinformatics,
-  and life as a researcher. Pull up a chair and have a read! 🌸
+  I'm also a science communicator. I write about cancer biology, in silico drug
+  discovery, coding in science, women in STEM and researcher wellbeing, aiming to
+  make computational biology accessible to everyone. 🌸
 
 affiliations:
-  - name: Mohammed V University in Rabat   # TODO: confirm / edit
-    url: https://www.um5.ac.ma/
+  - name: Faculty of Medicine & Pharmacy, Mohammed V University in Rabat
+    url: https://fmp.um5.ac.ma/
 
 links:
   - icon: brands/linkedin
     url: https://www.linkedin.com/in/jouhaina-kourou-85354520a/
-  - icon: brands/github
-    url: https://github.com/Jkourou14
-  # Uncomment the ones you want to show:
-  # - icon: at-symbol
-  #   url: mailto:you@example.com
-  #   label: E-mail Me
-  # - icon: academicons/google-scholar
-  #   url: https://scholar.google.com/citations?user=YOUR-ID
+  - icon: academicons/google-scholar
+    url: https://scholar.google.com/citations?user=dR_NCScAAAAJ
   - icon: academicons/orcid
     url: https://orcid.org/0000-0001-6808-2725
+  - icon: brands/github
+    url: https://github.com/Jkourou14
 
 interests:
-  - Cancer Bioinformatics
-  - Computational Biology
-  - Drug Design
-  - Machine Learning
-  - In Silico Modeling
+  - Computational Drug Discovery
+  - Cancer Genomics & Pan-cancer Analysis
+  - Molecular Dynamics Simulation
+  - Machine Learning for Drug Screening
+  - Science Communication
 
 education:
-  - degree: PhD in Bioinformatics & Oncology
-    institution: Mohammed V University in Rabat   # TODO: confirm
-    start: 2021-09-01   # TODO: your real start date
-  # - degree: MSc ...        # TODO: add your Master's
-  #   institution: ...
-  #   start: 2019-09-01
-  #   end: 2021-06-30
+  - degree: PhD in Oncology & Bioinformatics
+    institution: Faculty of Medicine & Pharmacy, Mohammed V University in Rabat
+    start: 2022-09-01
+  - degree: Master's in Medical Biotechnology
+    institution: Faculty of Medicine & Pharmacy, Mohammed V University in Rabat
+    start: 2020-09-01
+    end: 2022-07-31
+  - degree: Bachelor's in Fundamental Biology & Health Sciences
+    institution: Faculty of Sciences, Mohammed V University in Rabat
+    start: 2019-09-01
+    end: 2020-07-31
+  - degree: DEUG in Biology (SVI)
+    institution: Faculty of Sciences, Mohammed V University in Rabat
+    start: 2017-09-01
+    end: 2019-07-31
+
+experience:
+  - role: PhD Researcher, Oncology & Bioinformatics
+    org: Faculty of Medicine & Pharmacy, Mohammed V University in Rabat
+    start: 2022-09-01
+    summary: |
+      - Developing a pan-cancer miRNA signature pipeline (TCGA, GEO) for prognostic biomarkers and drug-sensitivity prediction
+      - Building machine-learning pipelines for kinase inhibitor discovery
+      - In silico analysis of BRAF mutations and screening of novel inhibitors
+      - Writing systematic reviews that bring computational and clinical evidence together
+  - role: Student Research Supervisor
+    org: Faculty of Medicine & Pharmacy, Mohammed V University in Rabat
+    start: 2023-03-01
+    summary: |
+      - Supervising Master's and Bachelor's research projects in medical biotechnology and bioinformatics
+      - Hands-on training in molecular docking, homology modeling and analysis pipelines
+  - role: Research Assistant
+    org: Mohammed VI Center for Research and Innovation, Rabat
+    start: 2022-12-01
+    end: 2023-11-30
+    summary: |
+      - Homology modeling and molecular docking (AutoDock, Schrödinger) for oncology and infectious-disease targets
+      - Molecular dynamics simulations (GROMACS) of inhibitor binding stability
+      - Pan-cancer analyses of the MAPK and PI3K/AKT/mTOR pathways
+      - Interdisciplinary work across bioinformatics, molecular biology, virology, immunology and clinical oncology
+  - role: Workshop Organizer & Speaker
+    org: Mohammed VI Center for Research and Innovation, Rabat
+    start: 2023-06-01
+    end: 2023-06-30
+    summary: |
+      Organized and led graduate-level workshops on molecular docking, homology modeling and advanced bioinformatics.
 
 skills:
-  - name: Technical Skills
+  - name: Computational Drug Design
     items:
-      - label: Bioinformatics
+      - label: Molecular Docking & Virtual Screening
         level: 5
-      - label: Drug Design
+      - label: Molecular Dynamics (GROMACS)
         level: 5
+      - label: Homology & Pharmacophore Modeling
+        level: 5
+      - label: QSAR & ADMET Prediction
+        level: 4
+  - name: Bioinformatics & Data Science
+    items:
+      - label: Pan-cancer Analysis (TCGA, GEO)
+        level: 5
+      - label: Python (pandas, scikit-learn, RDKit)
+        level: 4
+      - label: R (Bioconductor, DESeq2, ggplot2)
+        level: 4
       - label: Machine Learning
         level: 4
-      - label: Python & R
-        level: 4
-  - name: Research & Communication
+  - name: Communication
     items:
-      - label: Scientific Writing
+      - label: Scientific Writing & Systematic Reviews
         level: 5
-      - label: Science Blogging
+      - label: Science Communication
         level: 5
+      - label: Teaching & Workshops
+        level: 4
 
-languages:   # TODO: adjust levels
+languages:
   - name: Arabic
     level: 5
     label: Native
   - name: French
-    level: 4
-    label: Fluent
+    level: 5
+    label: Bilingual
   - name: English
-    level: 4
-    label: Fluent
+    level: 5
+    label: Bilingual
+  - name: Spanish
+    level: 3
+    label: Intermediate
+  - name: German
+    level: 3
+    label: Intermediate
+  - name: Hebrew
+    level: 2
+    label: Basic
