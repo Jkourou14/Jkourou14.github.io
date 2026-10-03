@@ -13,15 +13,12 @@ status:
   icon: "🧬"
 role: PhD Student in Bioinformatics & Oncology
 bio: |
-  I'm a PhD candidate in Oncology & Bioinformatics at the Faculty of Medicine &
-  Pharmacy, Mohammed V University in Rabat. My research sits where computational
-  drug discovery meets cancer genomics: I use structural bioinformatics, molecular
-  dynamics and machine learning to find and test new therapeutic ideas in silico,
-  and to bring that discovery closer to translational oncology.
+  I'm a PhD student in Bioinformatics & Oncology at the Faculty of Medicine &
+  Pharmacy, Mohammed V University in Rabat. I work on bioinformatics of cancer
+  pathways, computational biology and drug design.
 
-  I'm also a science communicator. I write about cancer biology, in silico drug
-  discovery, coding in science, women in STEM and researcher wellbeing, aiming to
-  make computational biology accessible to everyone. 🌸
+  I also write about science, bioinformatics and research life, aiming to make
+  computational biology accessible to everyone. 🌸
 
 affiliations:
   - name: Faculty of Medicine & Pharmacy, Mohammed V University in Rabat
@@ -38,10 +35,9 @@ links:
     url: https://github.com/Jkourou14
 
 interests:
-  - Computational Drug Discovery
-  - Cancer Genomics & Pan-cancer Analysis
-  - Molecular Dynamics Simulation
-  - Machine Learning for Drug Screening
+  - Bioinformatics of Cancer Pathways
+  - Computational Biology
+  - Drug Design
   - Science Communication
 
 education:
@@ -66,10 +62,7 @@ experience:
     org: Faculty of Medicine & Pharmacy, Mohammed V University in Rabat
     start: 2022-09-01
     summary: |
-      - Developing a pan-cancer miRNA signature pipeline (TCGA, GEO) for prognostic biomarkers and drug-sensitivity prediction
-      - Building machine-learning pipelines for kinase inhibitor discovery
-      - In silico analysis of BRAF mutations and screening of novel inhibitors
-      - Writing systematic reviews that bring computational and clinical evidence together
+      Bioinformatics of cancer pathways, computational biology and drug design.
   - role: Student Research Supervisor
     org: Faculty of Medicine & Pharmacy, Mohammed V University in Rabat
     start: 2023-03-01
@@ -81,10 +74,7 @@ experience:
     start: 2022-12-01
     end: 2023-11-30
     summary: |
-      - Homology modeling and molecular docking (AutoDock, Schrödinger) for oncology and infectious-disease targets
-      - Molecular dynamics simulations (GROMACS) of inhibitor binding stability
-      - Pan-cancer analyses of the MAPK and PI3K/AKT/mTOR pathways
-      - Interdisciplinary work across bioinformatics, molecular biology, virology, immunology and clinical oncology
+      Computational drug design and bioinformatics in an interdisciplinary research team.
   - role: Workshop Organizer & Speaker
     org: Mohammed VI Center for Research and Innovation, Rabat
     start: 2023-06-01

@@ -29,22 +29,6 @@ sections:
       avatar:
         size: medium # Options: small (150px), medium (200px, default), large (320px), xl (400px), xxl (500px)
         shape: circle # Options: circle (default), square, rounded
-  - block: markdown
-    content:
-      title: '🔬 My Research'
-      subtitle: ''
-      text: |-
-        My work bridges **computational drug discovery** and **cancer genomics**.
-
-        I search for new therapeutic candidates against key cancer drivers such as BRAF,
-        PIK3CA, the PI3K/AKT/mTOR pathway and immune checkpoints like PD-L1 and VISTA,
-        combining molecular docking, molecular dynamics and machine learning. On the
-        genomics side, I study miRNA biomarkers across cancer types using large public
-        datasets.
-
-        I'm always happy to talk science, so feel free to reach out to collaborate 🌸
-    design:
-      columns: '1'
   - block: collection
     id: papers
     content:
