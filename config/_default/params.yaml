@@ -13,47 +13,47 @@ hugoblox:
   # ────────────────────────────────────────────────────────────────────────────
   identity:
     # Site name - shown in navbar, footer, copyright, and browser title by default
-    name: "Your Name"
+    name: "Jouhaina Kourou"
     # Legal entity for copyright notices (defaults to name if not set)
     organization: ""
     # Schema.org type for structured data
     type: person # person | organization | local_business
     # Short tagline displayed on your site
-    tagline: ""
+    tagline: "Bioinformatics, cancer & drug design, written without a character limit"
     # Site meta description for search engines and social sharing
-    description: "The highly-customizable Hugo Academic theme powered by HugoBlox
-      Kit. Easily create your personal academic website."
+    description: "Jouhaina Kourou, PhD student in Bioinformatics & Oncology. Blog posts on
+      computational biology, drug design, machine learning and research life."
     # Social accounts (used for meta tags like Twitter Cards)
     social:
-      twitter: "GoOwnable" # Twitter/X handle for Twitter Cards (without @)
+      twitter: "" # Twitter/X handle for Twitter Cards (without @)
 
   # ────────────────────────────────────────────────────────────────────────────
   # THEME
-  # Color and visual design system
+  # Color and visual design system: pink & lavender 🌸💜
   # ────────────────────────────────────────────────────────────────────────────
   theme:
-    # Mode: 'light', 'dark', or 'system' (follows OS preference)
-    mode: system
+    # Always light, so the blush & lavender palette is what visitors see
+    mode: light
     # Theme pack: name from data/themes/ or { light: "x", dark: "y" } for mix-and-match
     pack: "default"
-    # Optional: Override theme pack colors
+    # Override theme pack colors
     colors:
-      primary: "" # Tailwind palette name or hex (e.g., "indigo" or "#6366f1")
-      secondary: ""
-      neutral: "" # Affects gray utilities (text-gray-*, bg-gray-*)
+      primary: "pink"      # links, buttons, highlights
+      secondary: "purple"  # lavender accents
+      neutral: "zinc"      # cool grey that pairs with lavender
     # Optional: Mode-specific color overrides
     colors_light: {}
     colors_dark: {}
-    # Optional: Semantic surface color overrides
+    # Semantic surface color overrides
     surfaces:
-      background: ""
-      foreground: ""
+      background: "#FDF7FB"   # faint blush
+      foreground: "#3B2A3F"   # deep plum text
       header:
-        background: ""
-        foreground: ""
+        background: "#F6EAF6" # pale lavender-pink
+        foreground: "#3B2A3F"
       footer:
-        background: ""
-        foreground: ""
+        background: "#EFE4F7" # soft lavender
+        foreground: "#3B2A3F"
 
   # ────────────────────────────────────────────────────────────────────────────
   # TYPOGRAPHY
@@ -69,7 +69,7 @@ hugoblox:
   # ────────────────────────────────────────────────────────────────────────────
   layout:
     # Border radius: 'none', 'sm', 'md', 'lg', or 'full'
-    radius: "md"
+    radius: "lg"
     # Spacing density: 'compact', 'comfortable', or 'spacious'
     spacing: "spacious"
     # Avatar shape in author profiles
@@ -89,9 +89,9 @@ hugoblox:
     align: center # left | center | right
     # Feature toggles
     search: true
-    theme_toggle: true
-    theme_picker: true
-    language_switcher: true
+    theme_toggle: false   # off: dark mode would clash with the light pink surfaces
+    theme_picker: false
+    language_switcher: false
     # Call-to-action button
     cta:
       enable: false
@@ -105,9 +105,9 @@ hugoblox:
   footer:
     # Footer style variant
     style: minimal # minimal | columns | centered
-    language_switcher: true
+    language_switcher: false
     # Custom footer text (HTML supported)
-    text: ""
+    text: "Made with 💜 and a lot of coffee"
 
   # ────────────────────────────────────────────────────────────────────────────
   # COPYRIGHT
@@ -154,9 +154,9 @@ hugoblox:
   # Content rendering and behavior
   # ────────────────────────────────────────────────────────────────────────────
   content:
-    # Math rendering
+    # Math rendering (handy for equations in science posts)
     math:
-      enable: false
+      enable: true
     # Table of contents
     toc:
       enable: true
