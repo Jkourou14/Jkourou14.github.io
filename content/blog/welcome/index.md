@@ -2,6 +2,7 @@
 title: "🌸 Welcome to Thoughts Between the Lines"
 summary: "Why I created this space beyond LinkedIn, and what you'll find here: science, research life, and the thoughts between the lines."
 date: 2026-10-03
+pinned: true
 authors:
   - me
 tags:
