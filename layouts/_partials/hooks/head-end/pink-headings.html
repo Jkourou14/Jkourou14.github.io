@@ -1,0 +1,8 @@
+{{/* Pink section headings inside blog posts (not the post's main title). */}}
+{{ if and .IsPage (eq .Section "blog") }}
+<style>
+  .prose h2 { color: #C2185B !important; }
+  .prose h3 { color: #E0399A !important; }
+  .prose h4 { color: #F067D4 !important; }
+</style>
+{{ end }}
