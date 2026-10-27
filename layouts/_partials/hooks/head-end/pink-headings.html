@@ -1,8 +1,23 @@
-{{/* Pink section headings inside blog posts (not the post's main title). */}}
+{{/* Blog posts only: pink section headings (not the post's main title), and
+     quotes (lines starting with ">" in Markdown) shown as lavender highlight boxes. */}}
 {{ if and .IsPage (eq .Section "blog") }}
 <style>
   .prose h2 { color: #C2185B !important; }
   .prose h3 { color: #E0399A !important; }
   .prose h4 { color: #F067D4 !important; }
+  .prose blockquote {
+    background: #F3E8FF !important;
+    border-left: 5px solid #F067D4 !important;
+    border-radius: 0 14px 14px 0;
+    padding: 1em 1.4em !important;
+    margin: 1.8em 0 !important;
+    color: #6B2C5F !important;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 1.12em;
+    quotes: none;
+  }
+  .prose blockquote p { margin: 0 !important; }
+  .prose blockquote p::before, .prose blockquote p::after { content: none !important; }
 </style>
 {{ end }}
